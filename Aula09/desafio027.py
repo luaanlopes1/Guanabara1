@@ -1,0 +1,5 @@
+name = input('Tell me you complet name: ')
+print('Your name is: {}'.format(name))
+name = name.split()
+print('Your first name is: {}'.format(name[0]))
+print('Your last name is: {}'.format(name[-1]))
